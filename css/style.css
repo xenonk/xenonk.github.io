@@ -2734,10 +2734,15 @@ input.form-control, textarea.form-control {
 .language-picker .btn, .language-picker .btn:hover, .language-picker .btn:focus, .language-picker .btn.focus {
 	text-decoration: none;
 	border-radius: 0;
+    background-color: #337ab7 !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .language-picker .btn-primary:hover, .language-picker .btn-primary:focus, .language-picker .btn-primary:active {
-	background-color: #337ab7;
+	background-color: #337ab7 !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .language-picker .dropdown-menu {
