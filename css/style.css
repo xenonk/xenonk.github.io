@@ -739,7 +739,7 @@ a.navbar-brand span {
 /*-- //Banner-Slider --*/
 .banner-web {
     position:relative;
-	background:url('../images/bann3.jpg')no-repeat 0px 0px;
+	background:url('../images/bann2.jpg')no-repeat 0px 0px;
 	min-height: 750px;
 	-webkit-background-size:cover;
 	-o-background-size:cover;
@@ -942,7 +942,7 @@ h4.agileits.web span {
 	margin-top:3em;
 }
 .mid-img-agileits{
-	background: url(../images/o2.jpg)no-repeat 0px 0px;
+	background: url(../images/o1.jpg)no-repeat 0px 0px;
     min-height: 475px;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -2734,15 +2734,10 @@ input.form-control, textarea.form-control {
 .language-picker .btn, .language-picker .btn:hover, .language-picker .btn:focus, .language-picker .btn.focus {
 	text-decoration: none;
 	border-radius: 0;
-    background-color: #5198d6 !important;
-    outline: none !important;
-    box-shadow: none !important;
 }
 
 .language-picker .btn-primary:hover, .language-picker .btn-primary:focus, .language-picker .btn-primary:active {
-	background-color: #5198d6 !important;
-    outline: none !important;
-    box-shadow: none !important;
+	background-color: #337ab7;
 }
 
 .language-picker .dropdown-menu {
