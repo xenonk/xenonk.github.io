@@ -379,7 +379,7 @@ input.checkbox:checked:after {
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
-  margin: 50px auto 0;
+  /*margin: 10px auto 0;*/
 }
 .rslides_tabs li:first-child {
   margin-left: 0;
@@ -547,7 +547,7 @@ input.checkbox:checked:after {
 }
 .w3l_banner_info {
     text-align: left;
-    margin: 0 auto;
+    margin: 7% auto 0;
     width: 85%;
 }
 .slider_banner_info h4 {
@@ -566,7 +566,7 @@ input.checkbox:checked:after {
     line-height: 26px;
 }
 .slider_banner_info {
-    margin-top: 9em;
+    /*margin-top: 9em;*/
 }
 /*-- banner-form --*/
 /* Shutter In Vertical */
@@ -612,7 +612,7 @@ input.checkbox:checked:after {
 }
 .banner-form-agileinfo {
 	 padding: 0 5em;
-    margin-top: 12.5em;
+    /*margin-top: 12.5em;*/
 	text-align: center;
 }
 .banner-form-agileinfo input[type="text"], .banner-form-agileinfo input[type="email"], .banner-form-agileinfo textarea, .form-control {
@@ -739,8 +739,8 @@ a.navbar-brand span {
 /*-- //Banner-Slider --*/
 .banner-web {
     position:relative;
-	background:url('../images/bann3.jpg')no-repeat 0px 0px;
-	min-height: 750px;
+	background:url('../images/bann4.jpg')no-repeat 0px 0px;
+	min-height: 550px;
 	-webkit-background-size:cover;
 	-o-background-size:cover;
 	-moz-background-size:cover;
@@ -942,7 +942,7 @@ h4.agileits.web span {
 	margin-top:3em;
 }
 .mid-img-agileits{
-	background: url(../images/o2.jpg)no-repeat 0px 0px;
+	background: url(../images/o1.jpg)no-repeat 0px 0px;
     min-height: 475px;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1547,7 +1547,7 @@ a.a2:hover {
 		font-size: 44px;
 	}
 	.banner-web {
-		min-height: 645px;
+		min-height: 550px;
 	}
 	.team-grid-text-agile p {
 		margin-top: 2em;
@@ -1561,10 +1561,10 @@ a.a2:hover {
 }
 @media(max-width:1366px){
 	.banner-form-agileinfo {
-		margin-top: 10.5em;
+		/*margin-top: 8em;*/
 	}
 	.slider_banner_info {
-		margin-top: 7em;
+		/*margin-top: 7em;*/
 	}
 	.wthree_agile_us {
 		margin-top: 2.6em;
@@ -1633,17 +1633,17 @@ a.a2:hover {
 		font-size: 40px;
 	}
 	.slider_banner_info {
-		margin-top: 6em;
+		/*margin-top: 6em;*/
 	}
 	.banner-form-agileinfo {
 		padding: 0px 3em;
-		margin-top: 9.6em;
+		/*margin-top: 5em;*/
 	}
 	.callbacks_tabs {
 		left: -2.8%;
 	}
 	.banner-web {
-		min-height: 590px;
+		min-height: 540px;
 	}
 	h4.title-tpl ,h2.title-tpl {
 		font-size: 32px;
@@ -1764,10 +1764,10 @@ a.a2:hover {
 		font-size: 36px;
 	}
 	.slider_banner_info {
-		margin-top: 4em;
+		/*margin-top: 4em;*/
 	}
 	.banner-web {
-		min-height: 540px;
+		min-height: 520px;
 	}
 	.slider_banner_info p {
 		font-size: 16px;
@@ -1803,7 +1803,7 @@ a.a2:hover {
 }
 @media(max-width:991px){
 	#slider3 {
-		margin-top: 10px;
+		/*margin-top: 10px;*/
 	}
 	.top-nav-text {
 		width: 44.5%;
@@ -1817,7 +1817,7 @@ a.a2:hover {
 		font-size: 22px;
 	}
 	.slider_banner_info {
-		margin-top: 3em;
+		/*margin-top: 3em;*/
 	}
 	.wthree_agile_us {
 		margin-top: 0;
@@ -1888,7 +1888,7 @@ a.a2:hover {
 	.banner-form-agileinfo {
 		float: right;
 		width: 50%;
-		margin-top: 3.5em;
+		/*margin-top: 4em;*/
 	}
 	.slider_banner_info h4 {
 		font-size: 34px;
@@ -1909,7 +1909,7 @@ a.a2:hover {
 		width: 50%;
 	}
 	.banner-web {
-		min-height: 500px;
+		min-height: 480px;
 	}
 }
 @media(max-width:800px){
@@ -2051,7 +2051,7 @@ a.a2:hover {
 		margin: 3em auto 0;
 	}
 	.banner-web {
-		min-height: 485px;
+		min-height: 465px;
 	}
 	h4.title-tpl ,h2.title-tpl {
 		font-size: 24px;
@@ -2109,13 +2109,13 @@ a.a2:hover {
 		padding: 55px 0px;
 	}
 	.banner-form-agileinfo {
-		margin-top: 5em;
+		/*margin-top: 5em;*/
 	}
 	.slider_banner_info {
-		margin-top: 4em;
+		/*margin-top: 4em;*/
 	}
 	.banner-web {
-		min-height: 455px;
+		min-height: 435px;
 	}
 	.modal-content h5 {
 		font-size: 24px;
@@ -2192,7 +2192,7 @@ a.a2:hover {
 		background-size: 20px;
 	}
 	.banner-web {
-		min-height: 440px;
+		min-height: 420px;
 	}
 }
 @media(max-width:600px){
@@ -2221,7 +2221,7 @@ a.a2:hover {
 		font-size: 13px;
 	}
 	.banner-web {
-		min-height: 435px;
+		min-height: 400px;
 	}
 	.banner-form-agileinfo input[type="submit"] {
 		padding: 9px 0px;
@@ -2258,7 +2258,7 @@ a.a2:hover {
 		float: none;
 	}
 	.slider_banner_info {
-		margin-top: 1em;
+		/*margin-top: 1em;*/
 	}
 	.slider_banner_info h4 {
 		font-size: 25px;
@@ -2276,7 +2276,7 @@ a.a2:hover {
 		height: 31px;
 	}
 	.banner-web {
-		min-height: 490px;
+		min-height: 400px;
 	}
 	.slider_banner_info p {
 		margin-bottom: 1.2em;
@@ -2336,10 +2336,10 @@ a.a2:hover {
 		padding: 7px 0px;
 	}
 	.banner-web {
-		min-height: 460px;
+		min-height: 380px;
 	}
 	.banner-form-agileinfo {
-		margin: 2em 0 0 3em;
+		/*margin: 2em 0 0 3em;*/
 	}
 	h4.title-tpl ,h2.title-tpl {
 		margin-bottom: 25px;
@@ -2402,7 +2402,7 @@ a.a2:hover {
 		padding: 40px 0px;
 	}
 	.banner-web {
-		min-height: 455px;
+		min-height: 380px;
 	}
 	.tpl-welcome-left p span {
 		margin: .7em 0 0 0;
@@ -2424,7 +2424,7 @@ a.a2:hover {
 		font-size: 20px;
 	}
 	.banner-form-agileinfo {
-		margin: 2em 0 0 2.5em;
+		/*margin: 2em 0 0 2.5em;*/
 	}
 	.stats-info {
 		padding: 2em 3em;
@@ -2484,14 +2484,14 @@ a.a2:hover {
 		letter-spacing: 1px;
 	}
 	.slider_banner_info {
-		margin-top: .6em;
+		/*margin-top: .6em;*/
 	}
 	.banner-form-agileinfo {
-		margin: 1.5em 0 0 1.8em;
+		/*margin: 1.5em 0 0 1.8em;*/
 		width: 85%;
 	}
 	.banner-web {
-		min-height: 434px;
+		min-height: 360px;
 	}
 	.navbar-default .navbar-nav > li > a {
 		padding: .6em 0;
@@ -2606,11 +2606,11 @@ a.a2:hover {
 		padding: 8px;
 	}
 	.banner-form-agileinfo {
-		margin: 1.5em 0 0 0em;
+		/*margin: 1.5em 0 0 0em;*/
 		width: 100%;
 	}
 	.banner-web {
-		min-height: 425px;
+		min-height: 360px;
 	}
 	.team-img .overlay {
 		padding: 3em 0.5em 0;
