@@ -28,7 +28,7 @@ if (isset($_POST['name'])) {
     $success = mail($EmailTo, $Subject, $Body, "From:" . $email);
 
     if ($success) {
-        echo "success";
+        echo "succûâàess";
     } else {
         echo "error";
     }

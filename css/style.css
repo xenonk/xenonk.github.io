@@ -352,6 +352,16 @@ input.checkbox:checked:after {
 	text-align: center;
 }
 
+.modal-content-error {
+	display: none;
+}
+.modal-error .modal-content-ok {
+	display: none;
+}
+.modal-error .modal-content-error {
+	display: block;
+}
+
 .modal {
 	text-align: center;
 }
@@ -811,12 +821,20 @@ h4.title-tpl ,h2.title-tpl {
     margin: 0;
     line-height: 40px;
 }
-.tpl-welcome-left p {
+.tpl-welcome-left {
     color: #888;
     line-height: 1.9em;
     margin: 0 0 0 0;
     font-size: 16px;
 	letter-spacing: .5px;
+}
+.tpl-welcome-left ul {
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.tpl-welcome-left li {
+    margin-bottom: 5px;
 }
 .tpl-welcome-left p span{
 	display:block;
@@ -1441,7 +1459,6 @@ a.a2:hover {
 /*--Map --*/
 .map-webtpl {
     position: relative;
-    padding-bottom: 0px!important;
 }
 .map-webtpl iframe {
     width: 100%;
@@ -1657,7 +1674,7 @@ a.a2:hover {
 	.slider_banner_info p {
 		font-size: 18px;
 	}
-	.tpl-welcome-left p {
+	.tpl-welcome-left {
 		font-size: 15px;
 	}
 	h4.agileits.web span {
@@ -2060,7 +2077,7 @@ a.a2:hover {
 	.tpl-welcome-left h5 {
 		font-size: 1.1em;
 	}
-	.tpl-welcome-left p {
+	.tpl-welcome-left {
 		font-size: 14.5px;
 	}
 	.stats-grid {
@@ -2496,10 +2513,11 @@ a.a2:hover {
 	.navbar-default .navbar-nav > li > a {
 		padding: .6em 0;
 	}
-	.tpl-welcome-left p {
+	.tpl-welcome-left {
 		font-size: 14.4px;
 		line-height: 1.85em;
 	}
+
 	.tpl-welcome-bottom {
 		margin: 1em 0 0 0;
 	}
@@ -2734,7 +2752,7 @@ input.form-control, textarea.form-control {
 .language-picker .btn, .language-picker .btn:hover, .language-picker .btn:focus, .language-picker .btn.focus {
 	text-decoration: none;
 	border-radius: 0;
-    background-color: #5198d6 !important;
+    background-color: rgba(81, 152, 214, 0.7) !important;
     outline: none !important;
     box-shadow: none !important;
 }
@@ -2783,5 +2801,8 @@ input.form-control, textarea.form-control {
 
 .flg-default {
 	margin-right: 10px;
+}
+.google-map {
+	display: block;
 }
 /*--//responsive--*/
