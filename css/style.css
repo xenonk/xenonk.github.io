@@ -1351,8 +1351,9 @@ i#jzBoxClose {
 	font-weight: 600;
 	margin: 0 5px 5px 0;
 }
-.contact-pad {
-	padding-bottom: 50px;
+.address-pad {
+	display: block;
+	overflow: hidden;
 }
 .contact-left h6 {
     font-size: 17px;
