@@ -6,7 +6,7 @@ if (isset($_POST['name'])) {
     $message = $_POST["message"];
 
     // E-mail address
-    $EmailTo = "to@someone.com";
+    $EmailTo = "email@something.com";
     $Subject = "Beijing Planettraiding callback form";
 
     $Body = "Beijing Planettraiding callback form";
