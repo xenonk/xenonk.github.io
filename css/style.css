@@ -2731,7 +2731,7 @@ input.form-control, textarea.form-control {
 
 .language-picker {
 	float: right;
-	margin: 0 0 10px 30px;
+	margin: 3px 0 10px 50px;
 }
 
 .form-horizontal {
