@@ -6,10 +6,15 @@ if (isset($_POST['name'])) {
     $message = $_POST["message"];
 
     // E-mail address
-    $EmailTo = "email@to.com";
-    $Subject = "BEIJING	PLANETTRADING callback form";
+    $EmailTo = "to@someone.com";
+    $Subject = "Beijing Planettraiding callback form";
 
-    $Body = "Name: ";
+    $Body = "Beijing Planettraiding callback form";
+    $Body .= "\n";
+    $Body .= "Date: " . date("d.m.y H:i");
+    $Body .= "\n\n\n";
+
+    $Body .= "Name: ";
     $Body .= $name;
     $Body .= "\n";
 
@@ -28,7 +33,7 @@ if (isset($_POST['name'])) {
     $success = mail($EmailTo, $Subject, $Body, "From:" . $email);
 
     if ($success) {
-        echo "succûâàess";
+        echo "success";
     } else {
         echo "error";
     }

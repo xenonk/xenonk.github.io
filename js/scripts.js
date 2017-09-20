@@ -5,7 +5,7 @@ $(function () {
 
 		var name = $("#name").val();
 		var email = $("#email").val();
-		var email = $("#tel").val();
+		var tel = $("#tel").val();
 		var message = $("#message").val();
 
 		$.ajax({
